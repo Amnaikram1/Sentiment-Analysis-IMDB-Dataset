@@ -47,19 +47,19 @@ The dataset has 50,000 balanced data points with two columns: `review` (text) an
 
 ### all-MiniLM-L6-v2
 
-- This sentence transformer model was trained on 1 billion pairs of input/output. Its embeddings have 384 dimensions. It takes a maximum input of sequence length 256.
+-This sentence transformer model was trained on 1 billion pairs of input/output. Its embeddings have 384 dimensions. It takes a maximum input of sequence length 256.
 
 ### bert-base-nli-mean-tokens
 
-- This model generates sentence embeddings by taking the average of token embeddings.
+-This model generates sentence embeddings by taking the average of token embeddings.
 
 ### multi-qa-mpnet-base-dot-v1
 
-It is widely used for semantic search. Its embeddings have 768 dimensions. It takes a maximum input of sequence length 512.
+-It is widely used for semantic search. Its embeddings have 768 dimensions. It takes a maximum input of sequence length 512.
 
 ### roberta-large-nli-stsb-mean-tokens
 
-- The model is fine-tuned on NLI and STSB. It produces a mean pooling of token embeddings.
+-The model is fine-tuned on NLI and STSB. It produces a mean pooling of token embeddings.
 
 ## Conclusion
 
