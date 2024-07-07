@@ -61,6 +61,24 @@ The dataset has 50,000 balanced data points with two columns: `review` (text) an
 
 -The model is fine-tuned on NLI and STSB. It produces a mean pooling of token embeddings.
 
+## Model Comparisons
+
+| Model                                                | Accuracy |
+|------------------------------------------------------|----------|
+| CountVectorizer - MLPClassifier                      | 90.00    |
+| CountVectorizer - Logistic Regression                | 89.00    |
+| CountVectorizer - XGBClassifier                      | 85.00    |
+| TF-IDF - MLPClassifier                               | 90.00    |
+| TF-IDF - Logistic Regression                         | 89.00    |
+| TF-IDF - XGBClassifier                               | 85.00    |
+| Word2Vec (Skip-gram) - MLPClassifier                 | 79.00    |
+| Word2Vec (Skip-gram) - Logistic Regression           | 73.00    |
+| Word2Vec (Skip-gram) - XGBClassifier                 | 71.00    |
+| Sentence Transformers (multi-qa-mpnet-base-dot-v1)   | 89.52    |
+| all-MiniLM-L6-v2                                     | 81.73    |
+| bert-base-nli-mean-tokens                             | 83.81    |
+| roberta-large-nli-stsb-mean-tokens                    | 84.42    |
+
 ## Conclusion
 
 After extensive experimentation, the best combinations for sentiment analysis on the IMDB dataset are:
